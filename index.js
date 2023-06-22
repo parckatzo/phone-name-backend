@@ -100,7 +100,7 @@ app.post('/api/numbers', (request, response) => {
     response.json(number)
 })
 
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 5173
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`)
 })
